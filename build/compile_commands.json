@@ -1,0 +1,13 @@
+[
+{
+  "directory": "d:/personal/opengl/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2017\\ENTERP~1\\VC\\Tools\\MSVC\\1415~1.267\\bin\\Hostx86\\x86\\cl.exe  /nologo  -I..\\3rdparty\\glfw-3.2.1.bin.WIN32\\include -I..\\3rdparty\\glad\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\glexample.dir\\3rdparty\\glad\\src\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\personal\\opengl\\3rdparty\\glad\\src\\glad.c",
+  "file": "D:/personal/opengl/3rdparty/glad/src/glad.c"
+},
+
+{
+  "directory": "d:/personal/opengl/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2017\\ENTERP~1\\VC\\Tools\\MSVC\\1415~1.267\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP  -I..\\3rdparty\\glfw-3.2.1.bin.WIN32\\include -I..\\3rdparty\\glad\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\glexample.dir\\src\\example.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\personal\\opengl\\src\\example.cc",
+  "file": "D:/personal/opengl/src/example.cc"
+}
+]
