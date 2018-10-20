@@ -1,4 +1,0 @@
-D:/personal/opengl/CMakeFiles/simple_triangle.dir
-D:/personal/opengl/CMakeFiles/gradiant_triangle.dir
-D:/personal/opengl/CMakeFiles/ALL_BUILD.dir
-D:/personal/opengl/CMakeFiles/ZERO_CHECK.dir
