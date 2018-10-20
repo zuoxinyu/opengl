@@ -23,18 +23,9 @@ add_library(glad STATIC
     3rdparty/glad/src/glad.c
 )
 
-add_executable(simple_triangle
-    src/simple_triangle.cc
-)
-
-add_executable(gradiant_triangle
-    src/gradiant_triangle.cc
-)
-
-add_executable(texture_triangle
-    src/texture_triangle.cc
-)
-
-add_executable(transform
-    src/transform.cc
-)
+add_executable(simple_triangle src/simple_triangle.cc)
+add_executable(gradiant_triangle src/gradiant_triangle.cc)
+add_executable(texture_triangle src/texture_triangle.cc)
+add_executable(transform src/transform.cc)
+add_executable(coord_transform src/coord_transform.cc)
+add_executable(cube src/cube.cc)
