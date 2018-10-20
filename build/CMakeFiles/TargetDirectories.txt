@@ -1,7 +1,0 @@
-D:/personal/opengl/build/CMakeFiles/transform.dir
-D:/personal/opengl/build/CMakeFiles/glad.dir
-D:/personal/opengl/build/CMakeFiles/simple_triangle.dir
-D:/personal/opengl/build/CMakeFiles/gradiant_triangle.dir
-D:/personal/opengl/build/CMakeFiles/texture_triangle.dir
-D:/personal/opengl/build/CMakeFiles/edit_cache.dir
-D:/personal/opengl/build/CMakeFiles/rebuild_cache.dir
