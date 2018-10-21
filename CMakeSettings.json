@@ -2,7 +2,8 @@
   "configurations": [
     {
       "name": "x86-Debug",
-      "generator": "Ninja",
+      //"generator": "Ninja",
+      "generator": "Visual Studio 15 2017",
       "configurationType": "Debug",
       "inheritEnvironments": [
         "msvc_x86"
@@ -10,7 +11,8 @@
       "buildRoot": "${projectDir}\\build",
       "installRoot": "${projectDir}\\install",
       "cmakeCommandArgs": "",
-      "buildCommandArgs": "-v",
+      //"buildCommandArgs": "-v",
+      "buildCommandArgs": "",
       "ctestCommandArgs": ""
     }
   ]

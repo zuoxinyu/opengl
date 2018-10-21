@@ -7,10 +7,12 @@ include_directories(
     3rdparty/glfw-3.2.1.bin.WIN32/include
     3rdparty/glad/include
 	3rdparty/glm-0.9.9.2/glm
+    3rdparty/glew-2.1.0/include
 )
 
 link_directories(
 	3rdparty/glfw-3.2.1.bin.WIN32/lib-vc2015
+    3rdparty/glew-2.1.0/lib/Release/Win32
 	build
 )
 
@@ -31,3 +33,4 @@ add_executable(transform src/transform.cc)
 add_executable(coord_transform src/coord_transform.cc)
 add_executable(cube src/cube.cc)
 add_executable(camera_control src/camera_control.cc)
+add_executable(reuse_window WIN32 src/integration/reuse_window.cc)
