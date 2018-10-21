@@ -2,6 +2,7 @@ project(glexample)
 cmake_minimum_required(VERSION 3.2)
 
 include_directories(
+	src/common
 	3rdparty/stb/include
     3rdparty/glfw-3.2.1.bin.WIN32/include
     3rdparty/glad/include
@@ -29,3 +30,4 @@ add_executable(texture_triangle src/texture_triangle.cc)
 add_executable(transform src/transform.cc)
 add_executable(coord_transform src/coord_transform.cc)
 add_executable(cube src/cube.cc)
+add_executable(camera_control src/camera_control.cc)
